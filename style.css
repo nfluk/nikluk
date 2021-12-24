@@ -56,6 +56,10 @@ img {
   max-width: 100%;
 }
 
+strong {
+  font-weight: var(--fw-bold);
+}
+
 /* Typography */
 
 h1,
@@ -77,6 +81,10 @@ h3 {
 
 .section__title {
   margin-bottom: 0.2em;
+}
+
+.section__title--intro {
+  font-weight: var(--fw-reg);
 }
 
 .section__subtitle {
