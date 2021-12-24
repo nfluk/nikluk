@@ -87,6 +87,11 @@ h3 {
   font-weight: var(--fw-reg);
 }
 
+/* this puts your name on a separate line since it becomes a block element instead of inline - remove to have your name on the same line */
+.section__title--intro strong {
+  display: block;
+}
+
 .section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
