@@ -120,11 +120,13 @@ nav {
   position: relative;
 }
 
+/* this makes the intro text and img be in grids (side by side) when view is bigger than 600px */
 @media (min-width: 600px) {
   .intro {
     display: grid;
     grid-template-areas:
       "img title"
       "img subtitle";
+    grid-template-columns: min-content max-content;
   }
 }
