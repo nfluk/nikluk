@@ -170,5 +170,6 @@ nav {
 
 .my-services {
   background-color: var(--clr-dark);
+  background-image: url(img/codebackground_01.jpg);
   color: var(--clr-light);
 }
