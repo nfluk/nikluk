@@ -138,11 +138,14 @@ nav {
     min-width: 250px;
   }
 
-  /* fairly confusing to me - check video at about 48 min mark */
+  /* beginning of this block is fairly confusing to me - check video at about 48 min mark */
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
     text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
   }
 }
