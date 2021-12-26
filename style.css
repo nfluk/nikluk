@@ -137,4 +137,11 @@ nav {
     grid-area: img;
     min-width: 250px;
   }
+
+  /* fairly confusing to me - check video at about 48 min mark */
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+  }
 }
