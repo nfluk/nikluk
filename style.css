@@ -165,3 +165,10 @@ nav {
     width: calc(100% + 1.5em);
   }
 }
+
+/* My services section */
+
+.my-services {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
