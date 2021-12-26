@@ -138,6 +138,7 @@ nav {
     grid-area: img;
     min-width: 250px;
     position: relative; /* makes the img be in front of the tile "band" */
+    z-index: 2; /* to make sure that the img is on a level above the "band" */
   }
 
   /* beginning of this block is fairly confusing to me - check video at about 48 min mark */
