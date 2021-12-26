@@ -124,6 +124,11 @@ nav {
   position: relative;
 }
 
+/* setting custom box shadow on all intro_imgs */
+.intro_img {
+  box-shadow: var(--bs);
+}
+
 /* this makes the intro text and img be in grids (side by side) when view is bigger than 600px */
 @media (min-width: 600px) {
   .intro {
