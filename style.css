@@ -187,7 +187,7 @@ nav {
   display: block;
   width: 3em;
   height: 1px;
-  margin: 0.5em auto 1em; /* top left+right bottom */
+  margin: 0.3em auto 1em; /* top left+right bottom */
   background: var(--clr-light);
   opacity: 0.25; /* make it a little transparent */
 }
