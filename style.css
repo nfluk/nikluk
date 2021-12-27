@@ -172,4 +172,12 @@ nav {
   background-color: var(--clr-dark);
   background-image: url(img/codebackground_04.jpg);
   color: var(--clr-light);
+  /* background-blend-mode: multiply; */ /* makes the background img and background color blend together */
+  text-align: center;
 }
+
+/* playing around some */
+/* .services {
+  display: grid;
+  width: 350px;  
+}*/
