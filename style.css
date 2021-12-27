@@ -176,12 +176,12 @@ nav {
   text-align: center;
 }
 
-.section__subtitle--services {
+.section__title--services {
   color: var(--clr-accent);
   position: relative;
 }
 
-.section__subtitle--services::after {
+.section__title--services::after {
   /* this is a pseudo element that creates the line that comes after the title "What I do" */
   content: ""; /* a pseudo element needs to have a content property of some sort or it will not appear at all */
   display: block;
