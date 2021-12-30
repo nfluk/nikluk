@@ -192,6 +192,11 @@ nav {
   opacity: 0.25; /* make it a little transparent */
 }
 
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 @media (min-width: 800px) {
   .services {
     display: flex;
