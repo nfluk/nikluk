@@ -192,8 +192,10 @@ nav {
   opacity: 0.25; /* make it a little transparent */
 }
 
-/* playing around some */
-/* .services {
-  display: grid;
-  width: 350px;  
-}*/
+@media (min-width: 800px) {
+  .services {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
