@@ -185,7 +185,7 @@ nav {
   /* this is a pseudo element that creates the line that comes after the title "What I do" */
   content: ""; /* a pseudo element needs to have a content property of some sort or it will not appear at all */
   display: block;
-  width: 2em;
+  width: 2.5em;
   height: 1px;
   margin: 0.3em auto 1em; /* top left+right bottom */
   background: var(--clr-light);
