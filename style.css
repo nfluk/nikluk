@@ -254,13 +254,11 @@ nav {
       "text img" /* text and image */;
   }
 
-  .section__title--about,
-  .section__subtitle--about {
-    grid-column: 1;
+  .section__title--about {
+    grid-area: title;
   }
 
   .about-me__img {
-    grid-row: 1 / -1;
-    grid-column: 2;
+    grid-area: img;
   }
 }
