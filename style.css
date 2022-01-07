@@ -248,6 +248,10 @@ nav {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
+    grid-template-areas:
+      "title img" /* title and image  */
+      "subtitle img" /* subtitle and image */
+      "text img" /* text and image */;
   }
 
   .section__title--about,
