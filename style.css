@@ -295,3 +295,8 @@ nav {
   font-weight: var(--fw-bold);
   margin-bottom: 1em;
 }
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+}
