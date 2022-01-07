@@ -281,3 +281,10 @@ nav {
     z-index: 2; /* added z-index just to be sure the img is always above the "bar" / line */
   }
 }
+
+/* My work section */
+
+.my-work {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
