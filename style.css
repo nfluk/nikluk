@@ -277,5 +277,6 @@ nav {
 
   .about-me__img {
     grid-area: img;
+    position: relative;
   }
 }
