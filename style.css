@@ -289,3 +289,7 @@ nav {
   color: var(--clr-light);
   text-align: center;
 }
+
+.section__subtitle--work {
+  color: var(--clr-accent);
+}
