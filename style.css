@@ -252,6 +252,7 @@ nav {
       "title img" /* title and image  */
       "subtitle img" /* subtitle and image */
       "text img" /* text and image */;
+    grid-column-gap: 2em;
   }
 
   .section__title--about {
