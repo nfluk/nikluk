@@ -278,5 +278,6 @@ nav {
   .about-me__img {
     grid-area: img;
     position: relative;
+    z-index: 2; /* added z-index just to be sure the img is always above the "bar" / line */
   }
 }
