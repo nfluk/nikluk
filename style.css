@@ -244,6 +244,11 @@ nav {
   margin: 0 auto;
 }
 
+.section__subtitle--about {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+
 .about-me__img {
   box-shadow: var(--bs);
 }
