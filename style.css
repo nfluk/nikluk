@@ -303,3 +303,11 @@ nav {
     minmax(300px, 1fr)
   ); /* auto-fit fits the number of portfolio objects automatically and needs a "minmax" to work */
 }
+
+.portfolio__item {
+  background: var(--clr-accent);
+}
+
+.portfolio__img {
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1);
+}
